@@ -1,0 +1,138 @@
+{
+  "muscles": {
+    "pectoralis major": "pectoralis major",
+    "biceps": "biceps",
+    "abdominals": "abdominals",
+    "sartorius": "sartorius",
+    "abductors": "abductors",
+    "trapezius": "trapezius",
+    "deltoid": "deltoid",
+    "latissimus dorsi": "latissimus dorsi",
+    "serratus anterior": "serratus anterior",
+    "external oblique": "external oblique",
+    "brachioradialis": "brachioradialis",
+    "finger extensors": "finger extensors",
+    "finger flexors": "finger flexors",
+    "quadriceps": "quadriceps",
+    "hamstrings": "hamstrings",
+    "gastrocnemius": "gastrocnemius",
+    "soleus": "soleus",
+    "infraspinatus": "infraspinatus",
+    "teres major": "teres major",
+    "triceps": "triceps",
+    "gluteus medius": "gluteus medius",
+    "gluteus maximus": "gluteus maximus"
+  },
+  "force_type": {
+    "push": "push"
+  },
+  "exercise_type": {
+    "compound": "compound"
+  },
+  "workout_type": {
+    "strength": "strength"
+  },
+  "exercise_name": {
+    "Barbell Bench Press": "Barbell Bench Press",
+    "Dumbbell Bench Press": "Dumbbell Bench Press",
+    "Barbell Incline Bench Press": "Barbell Incline Bench Press",
+    "Dumbbell Incline Bench Press": "Dumbbell Incline Bench Press",
+    "Dumbbell Decline Bench Press": "Dumbbell Decline Bench Press",
+    "Barbell Decline Bench Press": "Barbell Decline Bench Press",
+    "Dumbbell Chest Fly": "Dumbbell Chest Fly",
+    "Dumbbell Incline Chest Fly": "Dumbbell Incline Chest Fly",
+    "Dumbbell Decline Chest Fly": "Dumbbell Decline Chest Fly",
+    "Machine Chest Fly": "Machine Chest Fly",
+    "Cable Chest Fly": "Cable Chest Fly",
+    "High Cable Chest Fly": "High Cable Chest Fly",
+    "Single Arm Cable Chest Fly": "Single Arm Cable Chest Fly",
+    "Chest Dip": "Chest Dip",
+    "Low Cable Chest Fly": "Low Cable Chest Fly",
+    "Dumbbell Front Raise": "Dumbbell Front Raise",
+    "Cable Front Raise": "Cable Front Raise",
+    "Military Press": "Military Press",
+    "Plank": "Plank",
+    "Weighted Plank": "Weighted Plank",
+    "Dumbell Shoulder Press": "Dumbell Shoulder Press",
+    "Barbell Shoulder Press": "Barbell Shoulder Press",
+    "Barbell Military Press": "Barbell Military Press",
+    "Barbell Overhead Press": "Barbell Overhead Press",
+    "Kettlebell Overhead Press": "Kettlebell Overhead Press",
+    "Landmine Press": "Landmine Press",
+    "Dead-Stop Seated Overhead Press": "Dead-Stop Seated Overhead Press",
+    "Dumbbell Bicep Curl": "Dumbbell Bicep Curl",
+    "Preacher Bicep Curl": "Preacher Bicep Curl",
+    "Barbell Bicep Curl": "Barbell Bicep Curl",
+    "Dumbbell Hammer Curl": "Dumbbell Hammer Curl",
+    "Reverse Curl": "Reverse Curl",
+    "Dumbbell Arnold Press": "Dumbbell Arnold Press",
+    "Crunch": "Crunch",
+    "Cable Crunch": "Cable Crunch",
+    "Dead Bug": "Dead Bug",
+    "Mountain Climbers": "Mountain Climbers",
+    "Hanging Knee Raises": "Hanging Knee Raises",
+    "Hanging Leg Raises": "Hanging Leg Raises",
+    "Leg Raises": "Leg Raises",
+    "Barbell Back Squat": "Barbell Back Squat",
+    "Smith Machine Back Squat": "Smith Machine Back Squat",
+    "Barbell Front Squat": "Barbell Front Squat",
+    "Barbell Hip Thrusts": "Barbell Hip Thrusts",
+    "Machine Hip Thrusts": "Machine Hip Thrusts",
+    "Russian Twist": "Russian Twist",
+    "Barbell Deadlift": "Barbell Deadlift",
+    "Hex Bar Deadlift": "Hex Bar Deadlift",
+    "Barbell Lunge": "Barbell Lunge",
+    "Dumbbell Lunge": "Dumbbell Lunge",
+    "Dumbbell Bulgarian Split Squat": "Dumbbell Bulgarian Split Squat",
+    "Barbell Forward Lunge": "Barbell Forward Lunge",
+    "Barbell Reverse Lunge": "Barbell Reverse Lunge",
+    "Air Squat": "Air Squat",
+    "Weighted 45 Degree Back Extensions": "Weighted 45 Degree Back Extensions",
+    "45 Degree Back Extensions": "45 Degree Back Extensions",
+    "Dumbbell Lateral Rasie": "Dumbbell Lateral Rasie",
+    "Good Mornings": "Good Mornings",
+    "Dumbbell Overhead Tricep Extensions": "Dumbbell Overhead Tricep Extensions",
+    "Cable Overhead Tricep Extensions": "Cable Overhead Tricep Extensions",
+    "Dumbbell Tricep Kickbacks": "Dumbbell Tricep Kickbacks",
+    "Cable Tricep Kickbacks": "Cable Tricep Kickbacks",
+    "Dumbell Single Leg RDL": "Dumbell Single Leg RDL",
+    "Dumbell Stiff Leg Deadlift": "Dumbell Stiff Leg Deadlift",
+    "Barbell Stiff Leg Deadlift": "Barbell Stiff Leg Deadlift"
+  },
+  "obj_field_names": {
+    "Force": "Force",
+    "Name": "Name",
+    "Primary Muscles": "Primary Muscles",
+    "SecondaryMuscles": "SecondaryMuscles",
+    "Type": "Type",
+    "Workout Type": "Workout Type",
+    "Youtube link": "Youtube link"
+  },
+  "messages": {
+    "help_text": "Avaliable commands:\n/help - avaliable commands;\n/lang — set bot language;\n/primary — search exercises by primary muscle;\n/secondary — search exercises by secondary muscle;\n/substr — search exercise by name substring.\n/history - requests log.",
+    "parse_error": "Command not recognized! Type /help to get avaliable commands.",
+    "lang": {
+      "1": "Choose bot language."
+    },
+    "primary": {
+      "1": "Choose primary muscle.",
+      "2": "Target primary muscle: <b>{}</b> (<b>{}</b>).\nSet <b>max amount of search results</b> (integer).",
+      "3": "Error! Only integer alowed!",
+      "4": "Exercises not found for <b>{}</b> as primary muscle.\nTry to search exercises where it will be secondary muscle (/secondary)."
+    },
+    "secondary": {
+      "1": "Choose secondary muscle.",
+      "2": "Target secondary muscle: <b>{}</b> (<b>{}</b>).\nSet <b>max amount of search results</b> (integer).",
+      "3": "Error! Only integer alowed!",
+      "4": "Exercises not found for <b>{}</b> as secondary muscle.\nTry to search exercises where it will be primary muscle (/primary)."
+    },
+    "history": {
+      "1": "Yours commands history:"
+    },
+    "substr": {
+      "1": "Type query string (to search in exercises names).",
+      "2": "Exercise names found (select exercise to get info).",
+      "3": "Not result. Try another query with /substr or try other search commands."
+    }
+  }
+}
